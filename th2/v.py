@@ -1,1 +1,1 @@
-print(((n := int(input())) - (k := int(input())) % n) % n)
+print(((n := int(input())) - int(input()) % n) % n)
